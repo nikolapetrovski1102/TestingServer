@@ -1671,25 +1671,11 @@ input, select, textarea {
 			font-weight: bold;
 			font-size: 1.2rem;
 		}
-		/* #first{
-			z-index: 5;
-			transition: all 1s;
-			cursor: pointer;
-		}
-		#second{
-			z-index: 5;
-			transition: all 1s;
-			cursor: pointer;
-		}
-		#third{
-			z-index: 5;
-			transition: all 1s;
-			cursor: pointer;
-		} */
 		#work img{
 			z-index: 5;
 			transition: all 1s;
 			cursor: pointer;
+			z-index: 10;
 		}
 		#work img:hover{
 			opacity: .9;
@@ -1719,48 +1705,12 @@ input, select, textarea {
 			z-index: 15;
 			color: black;
 		}
-		/*
-		#close2{
-			height: 30px;
-			width: 30px;
-			position: absolute;
-			top: -9%;
-			right: -9%;
-			border-radius: 50px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			z-index: 15;
-		} */
 		#work div:hover{
 			filter: grayscale(100%) brightness(50%);
 			background-color: #C0C0C0;
 			transition: all 0.2s;
 			cursor: pointer;
 		}
-		/* #close1:hover{
-			filter: grayscale(100%) brightness(50%);
-			background-color: #C0C0C0;
-			transition: all 0.2s;
-			cursor: pointer;
-		}
-		#close2:hover{
-			filter: grayscale(100%) brightness(50%);
-			background-color: #C0C0C0;
-			transition: all 0.2s;
-			cursor: pointer;
-		} */
 		#work div:active{
 			background-color: gray;
 		}
-		/* #close1:active{
-			background-color: gray;
-		}
-		#close2:active{
-			background-color: gray;
-		} */
-		/* #close{
-			/* background-image: url("https://www.vhv.rs/dpng/d/426-4267489_close-button-transparent-png-pictures-close-button-icon.png");
-			background-position: center;
-			background-size: 50px;
-		} */
