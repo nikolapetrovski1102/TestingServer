@@ -1677,9 +1677,9 @@ input, select, textarea {
 			cursor: pointer;
 			z-index: 10;
 		}
-		#work img:hover{
+		/* #work img:hover{
 			opacity: .9;
-		}
+		} */
 		#work div{
 			height: 30px;
 			width: 30px;
@@ -1714,3 +1714,27 @@ input, select, textarea {
 		#work div:active{
 			background-color: gray;
 		}
+        /* #work span{
+            position: relative;
+            border: none;
+            transition: .4s ease-in;
+            z-index: -1;
+            cursor: pointer;
+        }
+        #work span::before, #work span::after{
+            position: absolute;
+            content: "";
+            z-index: 10;
+        }
+        #work span::after{
+            height: 0;
+            left: 0;
+            bottom: 0;
+            transition-duration: .6s;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        #work span:hover:after{
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+        } */
