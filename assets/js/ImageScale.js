@@ -173,5 +173,3 @@ fifth.click( function () {
                     });
             }
         });
-
-        document.getElementById("work_header").style.filter
