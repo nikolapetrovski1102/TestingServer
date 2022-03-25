@@ -3,7 +3,7 @@ const sr = ScrollReveal({
     distance: '200px',
     rotate: {x: 15, y: 15, z: 15},
     duration: 1000,
-    reset: false
+    reset: true
 });
 
 sr.reveal("#work span", {
